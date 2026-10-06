@@ -15,7 +15,7 @@
 
 需要 Windows 11 x64、.NET Framework 4.8，以及已登录 ChatGPT 账户的 Codex 桌面端或 Codex CLI。
 
-下载 [Windows ZIP](downloads/CodexQuotaTaskbar-v1.0.0-win-x64.zip)。仓库为私有，需先登录 GitHub，在文件页点击 **Download raw file** 下载。解压到可写目录，双击 `CodexQuotaTaskbar.exe`。保留旁边的 `CodexQuotaTaskbar.exe.config`。程序会自动寻找 Codex 桌面端附带的 CLI 或 PATH 中的 `codex.exe`；也可在程序旁创建 `codex.path`，写入本机 `codex.exe` 的完整路径。
+下载 [Windows ZIP](downloads/CodexQuotaTaskbar-v1.0.0-win-x64.zip)。打开 ZIP 文件页，点击 **Download raw file** 下载。解压到可写目录，双击 `CodexQuotaTaskbar.exe`。保留旁边的 `CodexQuotaTaskbar.exe.config`。程序会自动寻找 Codex 桌面端附带的 CLI 或 PATH 中的 `codex.exe`；也可在程序旁创建 `codex.path`，写入本机 `codex.exe` 的完整路径。
 
 额度通过官方 `codex app-server` 的 `account/rateLimits/read` 读取，按 10080 分钟识别周窗口，优先读取 `rateLimitsByLimitId.codex`。使用已有登录，不需要 API Key，也不发起模型聊天。
 
