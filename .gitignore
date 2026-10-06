@@ -1,0 +1,21 @@
+# Local runtime and machine-specific settings
+runtime*.json
+*.log
+logs/
+codex.path
+*.lnk
+
+# Generated binaries and release packages
+*.exe
+*.dll
+*.pdb
+dist/
+releases/
+verification/
+scratch/
+
+# Editor / operating system files
+.vs/
+.vscode/
+Thumbs.db
+Desktop.ini
